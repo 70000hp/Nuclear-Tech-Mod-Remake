@@ -207,7 +207,7 @@ object NTechBlocks {
     val oilDerrick = BLOCKS.registerK("oil_derrick") { OilDerrickBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
     val pumpjack = BLOCKS.registerK("pumpjack") { PumpjackBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
     val centrifuge = BLOCKS.registerK("centrifuge") { CentrifugeBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
-
+    val gasCentrifuge = BLOCKS.registerK("gas_centrifuge") { CentrifugeBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
     val ironAnvil = BLOCKS.registerK("iron_anvil") { AnvilBlock(1, Properties.of(METAL).strength(5F, 100F).requiresCorrectToolForDrops().sound(SoundType.ANVIL)) }
     val leadAnvil = BLOCKS.registerK("lead_anvil") { AnvilBlock(1, Properties.of(METAL).strength(5F, 100F).requiresCorrectToolForDrops().sound(SoundType.ANVIL)) }
     val steelAnvil = BLOCKS.registerK("steel_anvil") { AnvilBlock(2, Properties.of(METAL).strength(5F, 100F).requiresCorrectToolForDrops().sound(SoundType.ANVIL)) }

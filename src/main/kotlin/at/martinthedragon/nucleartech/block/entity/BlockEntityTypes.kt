@@ -32,6 +32,7 @@ object BlockEntityTypes {
     val oilDerrickBlockEntityType = BLOCK_ENTITIES.registerK("oil_derrick") { createType(::OilDerrickBlockEntity, NTechBlocks.oilDerrick.get()) }
     val pumpjackBlockEntityType = BLOCK_ENTITIES.registerK("pumpjack") { createType(::PumpjackBlockEntity, NTechBlocks.pumpjack.get()) }
     val centrifugeBlockEntityType = BLOCK_ENTITIES.registerK("centrifuge") { createType(::CentrifugeBlockEntity, NTechBlocks.centrifuge.get()) }
+    val gasCentBlockEntityType = BLOCK_ENTITIES.registerK("gas_centrifuge") { createType(::GasCentBlockEntity, NTechBlocks.gasCentrifuge.get()) }
     val cableBlockEntityType = BLOCK_ENTITIES.registerK("cable") { createType(::CableBlockEntity, NTechBlocks.coatedCable.get()) }
     val fluidPipeBlockEntityType = BLOCK_ENTITIES.registerK("fluid_pipe") { createType(::FluidPipeBlockEntity, NTechBlocks.coatedUniversalFluidDuct.get()) }
     val rbmkBlankBlockEntityType = BLOCK_ENTITIES.registerK("rbmk_blank") { createType(::RBMKBlankBlockEntity, NTechBlocks.rbmkBlank.get()) }

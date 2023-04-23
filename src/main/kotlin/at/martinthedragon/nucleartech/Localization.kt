@@ -55,6 +55,7 @@ object LangKeys {
     val CONTAINER_BLAST_FURNACE = of(CAT_CONTAINER, "blast_furnace")
     val CONTAINER_CHEM_PLANT = of(CAT_CONTAINER, "chem_plant")
     val CONTAINER_CENTRIFUGE = of(CAT_CONTAINER, "centrifuge")
+    val CONTAINER_GAS_CENTRIFUGE = of(CAT_CONTAINER, "gas_centrifuge")
     val CONTAINER_COMBUSTION_GENERATOR = of(CAT_CONTAINER, "combustion_generator")
     val CONTAINER_ELECTRIC_FURNACE = of(CAT_CONTAINER, "electric_furnace")
     val CONTAINER_FAT_MAN = of(CAT_CONTAINER, "fat_man")

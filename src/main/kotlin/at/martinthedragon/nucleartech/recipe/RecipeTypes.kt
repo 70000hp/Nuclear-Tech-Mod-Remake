@@ -14,6 +14,7 @@ object RecipeTypes {
     val BLASTING = create<BlastingRecipe>("blasting")
     val CHEM = create<ChemRecipe>("chem")
     val CENTRIFUGE = create<CentrifugeRecipe>("centrifuge")
+    val GAS_CENTRIFUGE = create<GasCentRecipe>("gas_centrifuge")
     val CONSTRUCTING = create<AnvilConstructingRecipe>("anvil_constructing")
     val PRESSING = create<PressingRecipe>("pressing")
     val SHREDDING = create<ShreddingRecipe>("shredding")
